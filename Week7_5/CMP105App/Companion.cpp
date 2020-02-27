@@ -11,6 +11,7 @@ Companion::Companion()
 
 Companion::~Companion()
 {
+
 }
 
 void Companion::update(float dt)
@@ -18,7 +19,7 @@ void Companion::update(float dt)
 	move(velocity*dt);
 }
 
-void Companion::moveToPlayer(Player* p)
+void Companion::moveToPlayer(sf::Vector2f playerPos)
 {
-	setPosition(p->getPosition());
+	setPosition(playerPos);
 }

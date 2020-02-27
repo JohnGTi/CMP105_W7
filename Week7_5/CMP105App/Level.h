@@ -5,6 +5,7 @@
 #include <string>
 #include <iostream>
 #include "Player.h"
+#include "Companion.h"
 
 
 
@@ -25,6 +26,6 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
-
+	//Companion compan;
 	Player player;
 };

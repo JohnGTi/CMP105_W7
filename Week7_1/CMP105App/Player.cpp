@@ -9,6 +9,7 @@ Player::Player()
 
 Player::~Player()
 {
+
 }
 
 void Player::handleInput(float dt)

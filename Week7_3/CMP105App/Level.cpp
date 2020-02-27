@@ -7,6 +7,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 	// initialise game objects
 	player.setInput(input);
+	player.getBullet();
 }
 
 Level::~Level()
